@@ -21,6 +21,37 @@
 <hr>
 
 <!-- Botões -->
+    <div class="mb-3">
+        <button class="btn btn-primary">Save</button>
+        <button class="btn btn-secondary">Cancel</button>
+        <button class="btn btn-outline-success">Finish</button>
+        <button class="btn btn-danger" disabled>Delete</button>
+        <button class="btn btn-warning" data-toggle="button">Select</button>
+    </div>
+
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+        </label>
+      </div>
+
+      <div class="dropdown mt-3">
+        <button class="btn btn-danger btn-lg dropdown-toggle" 
+            data-toggle="dropdown">
+            Buy
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Paypal</a>
+            <a href="#" class="dropdown-item">Pagseguro</a>
+        </div>
+      </div>
 
 <h1 class="mt-5">2. Progress -
     <small>
@@ -30,6 +61,17 @@
 <hr>
 
 <!-- Progresso -->
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
 
 <h1 class="mt-5">3. Messagens(alerts) -
     <small>
